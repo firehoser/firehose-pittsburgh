@@ -33,8 +33,9 @@ group :doc do
 end
 
 gem "twitter-bootstrap-rails"
-
 gem 'simple_form'
+gem 'carrierwave'
+
 
 
 # Use ActiveModel has_secure_password
