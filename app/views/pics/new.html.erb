@@ -7,7 +7,7 @@
 	<br/>
 	<%= simple_form_for @pic do |f| %>
 
-		<%= f.input :lesson, label: 'Which lesson?' %>
+		<%= f.input :lesson, label: 'Which lesson?', :required => false %>
 		<br/>
 
 		<%= f.input :image, label: 'Upload your image:' %>
